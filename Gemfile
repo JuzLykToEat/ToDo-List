@@ -30,6 +30,12 @@ gem 'devise'
 
 gem "font-awesome-rails"
 
+gem 'rack-cors', :require => 'rack/cors'
+
+gem 'active_model_serializers', '~> 0.10.2'
+
+gem 'jwt'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
